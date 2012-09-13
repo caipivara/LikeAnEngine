@@ -1,9 +1,8 @@
-===========================================================================
 
-			LIKE AN ENGINE
- 	Open source graphics engine, for everyone!!!
+LIKE AN ENGINE
+=============
 
-===========================================================================
+Open source graphics engine, for everyone!!!
 
 Like an engine is an open source graphics engine with gpl licence, 
 written in c++ and opengl (with glut),
@@ -11,7 +10,7 @@ that encapsulates opengl for the user.
 
 The project was developed using CodeBlocks C++ IDE and GLUT libraries.
 
-=============
+
 Structure
 =============
 
@@ -26,7 +25,6 @@ Compiled version of library
 
 
 
-=============
 Imagine...
 =============
 
@@ -37,7 +35,8 @@ Draw a sphere in this position… with this texture…
 
 BANG! you've got it in a simple way!
 
-===============
+
+
 BY
 ===============
 
@@ -46,18 +45,11 @@ Daniel Gòmez Rico, danielgomezrico@gmail.com
 
 
 The thing now is imagination,
-
 only imagination
 
 
-
-
-
-
-
-=======================================================
-		HOW - TO COMPILE - RUN
-=======================================================
+HOW TO COMPILE & RUN
+=============
 
 You must create:
 
@@ -79,9 +71,9 @@ You must create:
 - To compile, says to the compiler to use the libLikeAnEngine and the includes,
 then : Enjoy!!!.
 
-=======================================================
-		Compile With Code::Blocks IDE
-=======================================================
+
+Compile With Code::Blocks IDE
+=============
 
 Right click over the project, build options:
 
@@ -92,18 +84,15 @@ Right click over the project, build options:
 then... RUN!!!
 
 
-=======================================================
-			REQUIREMENTS
-=======================================================
+REQUIREMENTS
+=============
 
 Glut - http://www.opengl.org/resources/libraries/glut/glut_downloads.php (in linux: $aptitude install freeglut3-dev)
 
 
 
-
-=======================================================
-			CONF FILE
-=======================================================
+CONF FILE
+=============
 
 In the WorldConf folder you can find the file "world.txt", that contents all the 
 configurations for the scene
@@ -176,7 +165,8 @@ c l q                   -> Attenuation Constant Lineal Quadratic
 
 
 
-In this version :
+In this version
+=============
 
 - Reads Models in format 3ds using l3ds.cpp file , but with some bugs, NO READS TEXTURE
 
