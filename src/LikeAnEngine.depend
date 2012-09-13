@@ -1,0 +1,348 @@
+# depslib dependency file v1.0
+1265522917 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\conf\loader.cpp
+	"Loader.h"
+
+1255188538 
+
+1265863633 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\conf\loader.h
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<vector>
+	"../Utils/Camera.h"
+	"../Objects/Sphere.h"
+	"../Objects/Plane.h"
+	"../Objects/Cube.h"
+	"../Objects/Light.h"
+	"../Objects/Model3DS.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260303060 >
+
+1254494814 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\camera.h
+	<stdlib.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1254494730 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\sphere.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	<string>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268354 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\object3d.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+
+1265951903 
+
+1254268256 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\imageloader.h
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1256350818 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\plane.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	<iostream>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268256 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\math\mystructs.h
+	<cmath>
+
+1254268354 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\cube.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"Plane.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1256361128 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\light.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260303060 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\model3ds.h
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"../Conf/l3ds.h"
+	"Object3d.h"
+	<iostream>
+	<string>
+	<lib3ds/file.h>
+	<lib3ds/mesh.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260302891 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\conf\l3ds.h
+	<vector>
+	<string>
+
+1260290616 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\conf\l3ds.cpp
+	"l3ds.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1265866211 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\likeanengine.cpp
+	"LikeAnEngine.h"
+
+1265866211 ine.h"
+
+1265865648 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\likeanengine.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<sstream>
+	<pthread.h>
+	"Utils/Camera.h"
+	"Conf/Loader.h"
+	"Utils/KeyboardManager.h"
+	"Objects/Sphere.h"
+	"Objects/Plane.h"
+	"Objects/Cube.h"
+	"Objects/Light.h"
+	"Objects/Model3DS.h"
+	"Utils/Math/CollitionsMath.h"
+
+1265865648 h/CollitionsMath.h"
+
+1254268256 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\keyboardmanager.h
+
+1254268256 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\math\collitionsmath.h
+	<cmath>
+	"../../Objects/Sphere.h"
+	"../../Objects/Plane.h"
+	"../../Objects/Cube.h"
+
+1254268256 ects/Cube.h"
+
+1265951903 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\cube.cpp
+	"Cube.h"
+
+1256361126 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\light.cpp
+	"Light.h"
+	<iostream>
+
+1265863761 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\model3ds.cpp
+	"Model3DS.h"
+	<iostream>
+
+1265951903 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\plane.cpp
+	"Plane.h"
+
+1265951904 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\objects\sphere.cpp
+	"Sphere.h"
+
+1255188538 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\camera.cpp
+	"Camera.h"
+
+1265863253 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"Imageloader.h"
+
+1265863253 er.h"
+
+1254268256 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\keyboardmanager.cpp
+	"KeyboardManager.h"
+
+1254268256 anager.h"
+
+1258953123 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\math\collitionsmath.cpp
+	"CollitionsMath.h"
+
+1258953123 sMath.h"
+
+1258953708 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\likeanengine project src\likeanengine\utils\math\mystructs.cpp
+	"MyStructs.h"
+
+1258953708 .h"
+
+1265522916 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Conf/Loader.cpp
+	"Loader.h"
+
+1265863632 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Conf/Loader.h
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<vector>
+	"../Utils/Camera.h"
+	"../Objects/Sphere.h"
+	"../Objects/Plane.h"
+	"../Objects/Cube.h"
+	"../Objects/Light.h"
+	"../Objects/Model3DS.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254494814 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Utils/Camera.h
+	<stdlib.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1254494730 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Sphere.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	<string>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268354 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Object3d.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+
+1254268256 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Utils/Imageloader.h
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1256350818 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Plane.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	<iostream>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268256 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Utils/Math/MyStructs.h
+	<cmath>
+
+1254268354 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Cube.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"Plane.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1256361128 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Light.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260303060 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Model3DS.h
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"../Conf/l3ds.h"
+	"Object3d.h"
+	<iostream>
+	<string>
+	<lib3ds/file.h>
+	<lib3ds/mesh.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260302890 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Conf/l3ds.h
+	<vector>
+	<string>
+
+1260290616 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Conf/l3ds.cpp
+	"l3ds.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1265866210 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/LikeAnEngine.cpp
+	"LikeAnEngine.h"
+
+1276362321 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/LikeAnEngine.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<sstream>
+	<pthread.h>
+	"Utils/Camera.h"
+	"Conf/Loader.h"
+	"Utils/KeyboardManager.h"
+	"Objects/Sphere.h"
+	"Objects/Plane.h"
+	"Objects/Cube.h"
+	"Objects/Light.h"
+	"Objects/Model3DS.h"
+	"Utils/Math/CollitionsMath.h"
+
+1254268256 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Utils/KeyboardManager.h
+
+1254268256 /home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Utils/Math/CollitionsMath.h
+	<cmath>
+	"../../Objects/Sphere.h"
+	"../../Objects/Plane.h"
+	"../../Objects/Cube.h"
+
+1265951902 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Cube.cpp
+	"Cube.h"
+
+1256361126 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Light.cpp
+	"Light.h"
+	<iostream>
+
+1265863760 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Model3DS.cpp
+	"Model3DS.h"
+	<iostream>
+
+1265951902 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Plane.cpp
+	"Plane.h"
+
+1265951904 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Objects/Sphere.cpp
+	"Sphere.h"
+
+1255188538 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Utils/Camera.cpp
+	"Camera.h"
+
+1265863252 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Utils/Imageloader.cpp
+	<assert.h>
+	<fstream>
+	"Imageloader.h"
+
+1254268256 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Utils/KeyboardManager.cpp
+	"KeyboardManager.h"
+
+1258953708 source:/home/danielgomez22/Desktop/V 2.2/LikeAnEngine project src/LikeAnEngine/Utils/Math/MyStructs.cpp
+	"MyStructs.h"
+

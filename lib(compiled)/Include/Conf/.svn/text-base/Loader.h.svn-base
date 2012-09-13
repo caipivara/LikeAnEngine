@@ -1,0 +1,84 @@
+/*
+  Written by: 
+  Daniel Gomez Rico
+  danielgomezrico@gmail.com   
+  Student of system engineering, 6 semester
+  at the EAFIT university from Colombia
+  27 - September - 2009
+*/
+
+
+#ifndef LOADER_H_
+#define LOADER_H_
+
+#include <stdio.h>
+#include <iostream>
+#include <string.h>
+
+#include "../Utils/Camera.h"
+#include "../Objects/Sphere.h"
+#include "../Objects/Plane.h"
+#include "../Objects/Cube.h"
+#include "../Objects/Light.h"
+
+#ifdef __APPLE__
+#include <OpenGL/OpenGL.h>
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
+
+using namespace std;
+
+const string CARPET_FILES = "./Conf/";
+const string CARPET_TEXTURES = "Textures/";
+const string PATH_FILE = CARPET_FILES + "world.txt";
+
+
+
+/*
+  This class load the data from a file in PATH_FILE
+*/
+class Loader{
+ public:
+  Loader();
+  void load();
+  void loadNumberElements();
+  void manageLine(string line);
+ 
+  void initTextures();
+
+  void addSphere(Sphere* s, GLuint tex);
+  void addPlane(Plane* p, GLuint tex, GLdouble x, GLdouble y, GLdouble z);
+  void addCube(Cube* c, GLuint tex);
+  void addLight(Light* l);
+
+  Camera* getCamera();
+  Sphere* getSpheres();
+  Plane* getPlanes();
+  Cube* getCubes();
+  Light* getLights();
+  GLuint* getTextures();
+
+  GLint getNumberS();
+  GLint getNumberP();
+  GLint getNumberC();
+  GLint getNumberL();
+  
+  
+ private:
+  Camera* _camera;
+  Sphere* _arraySpheres;
+  Plane* _arrayPlanes;
+  Cube* _arrayCubes;
+  Light* _arrayLights;
+
+  GLuint* _arrayTexturesId;
+  string* _arrayNameTextures;
+  Image* _arrayImages;
+
+  //Number of spheres, planes, cubes, lights, textures
+  GLint ns,np,nc,nl,nt;
+};
+
+#endif 

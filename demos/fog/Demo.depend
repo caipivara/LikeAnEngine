@@ -1,0 +1,619 @@
+# depslib dependency file v1.0
+1265863593 source:/home/danielgomez22/Desktop/Like an engine 2.2 /main.cpp
+	"LikeAnEngine.h"
+
+1265863592 ine.h"
+
+1265525634 /home/danielgomez22/Desktop/prueba/Lib/Include/LikeAnEngine.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<sstream>
+	<pthread.h>
+	"Utils/Camera.h"
+	"Conf/Loader.h"
+	"Utils/KeyboardManager.h"
+	"Objects/Sphere.h"
+	"Objects/Plane.h"
+	"Objects/Cube.h"
+	"Objects/Light.h"
+	"Objects/Model3DS.h"
+	"Utils/Math/CollitionsMath.h"
+
+1265525634 h/CollitionsMath.h"
+
+1254494814 /home/danielgomez22/Desktop/prueba/Lib/Include/Utils/Camera.h
+	<stdlib.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1260302890 
+
+1265522046 /home/danielgomez22/Desktop/prueba/Lib/Include/Conf/Loader.h
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<vector>
+	"../Utils/Camera.h"
+	"../Objects/Sphere.h"
+	"../Objects/Plane.h"
+	"../Objects/Cube.h"
+	"../Objects/Light.h"
+	"../Objects/Model3DS.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260303060 >
+
+1254494730 /home/danielgomez22/Desktop/prueba/Lib/Include/Objects/Sphere.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	<string>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268354 /home/danielgomez22/Desktop/prueba/Lib/Include/Objects/Object3d.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+
+1254268256 /home/danielgomez22/Desktop/prueba/Lib/Include/Utils/Imageloader.h
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1256350818 /home/danielgomez22/Desktop/prueba/Lib/Include/Objects/Plane.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	<iostream>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268256 /home/danielgomez22/Desktop/prueba/Lib/Include/Utils/Math/MyStructs.h
+	<cmath>
+
+1254268354 /home/danielgomez22/Desktop/prueba/Lib/Include/Objects/Cube.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"Plane.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1256361128 /home/danielgomez22/Desktop/prueba/Lib/Include/Objects/Light.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260303060 /home/danielgomez22/Desktop/prueba/Lib/Include/Objects/Model3DS.h
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"../Conf/l3ds.h"
+	"Object3d.h"
+	<iostream>
+	<string>
+	<lib3ds/file.h>
+	<lib3ds/mesh.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260302891 /home/danielgomez22/Desktop/prueba/Lib/Include/Conf/l3ds.h
+	<vector>
+	<string>
+
+1254268256 /home/danielgomez22/Desktop/prueba/Lib/Include/Utils/KeyboardManager.h
+
+1254268256 /home/danielgomez22/Desktop/prueba/Lib/Include/Utils/Math/CollitionsMath.h
+	<cmath>
+	"../../Objects/Sphere.h"
+	"../../Objects/Plane.h"
+	"../../Objects/Cube.h"
+
+1254268256 ects/Cube.h"
+
+1265863593 source:e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\main.cpp
+	"LikeAnEngine.h"
+
+1265525634 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\likeanengine.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<sstream>
+	<pthread.h>
+	"Utils/Camera.h"
+	"Conf/Loader.h"
+	"Utils/KeyboardManager.h"
+	"Objects/Sphere.h"
+	"Objects/Plane.h"
+	"Objects/Cube.h"
+	"Objects/Light.h"
+	"Objects/Model3DS.h"
+	"Utils/Math/CollitionsMath.h"
+
+1254494814 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\camera.h
+	<stdlib.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1265522046 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\conf\loader.h
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<vector>
+	"../Utils/Camera.h"
+	"../Objects/Sphere.h"
+	"../Objects/Plane.h"
+	"../Objects/Cube.h"
+	"../Objects/Light.h"
+	"../Objects/Model3DS.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254494730 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\sphere.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	<string>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268354 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\object3d.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+
+1254268256 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\imageloader.h
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1256350818 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\plane.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	<iostream>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268256 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\math\mystructs.h
+	<cmath>
+
+1254268354 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\cube.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"Plane.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1256361128 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\light.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260303060 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\model3ds.h
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"../Conf/l3ds.h"
+	"Object3d.h"
+	<iostream>
+	<string>
+	<lib3ds/file.h>
+	<lib3ds/mesh.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260302891 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\conf\l3ds.h
+	<vector>
+	<string>
+
+1254268256 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\keyboardmanager.h
+
+1254268256 e:\desarrollo\computacion grafica\opengl\desarrollos propios\like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\math\collitionsmath.h
+	<cmath>
+	"../../Objects/Sphere.h"
+	"../../Objects/Plane.h"
+	"../../Objects/Cube.h"
+
+1265863592 source:f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\main.cpp
+	"LikeAnEngine.h"
+
+1265525634 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\likeanengine.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<sstream>
+	<pthread.h>
+	"Utils/Camera.h"
+	"Conf/Loader.h"
+	"Utils/KeyboardManager.h"
+	"Objects/Sphere.h"
+	"Objects/Plane.h"
+	"Objects/Cube.h"
+	"Objects/Light.h"
+	"Objects/Model3DS.h"
+	"Utils/Math/CollitionsMath.h"
+
+1254494814 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\camera.h
+	<stdlib.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1265522046 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\conf\loader.h
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<vector>
+	"../Utils/Camera.h"
+	"../Objects/Sphere.h"
+	"../Objects/Plane.h"
+	"../Objects/Cube.h"
+	"../Objects/Light.h"
+	"../Objects/Model3DS.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254494730 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\sphere.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	<string>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268354 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\object3d.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+
+1254268256 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\imageloader.h
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1256350818 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\plane.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	<iostream>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268256 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\math\mystructs.h
+	<cmath>
+
+1254268354 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\cube.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"Plane.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1256361128 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\light.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260303060 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\objects\model3ds.h
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"../Conf/l3ds.h"
+	"Object3d.h"
+	<iostream>
+	<string>
+	<lib3ds/file.h>
+	<lib3ds/mesh.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260302890 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\conf\l3ds.h
+	<vector>
+	<string>
+
+1254268256 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\keyboardmanager.h
+
+1254268256 f:\1sistemas\desarrollo\3 computacion grafica\1 opengl\desarrollos propios\1 like-an-engine\v 2.2\demo in codeblocks\lib\include\utils\math\collitionsmath.h
+	<cmath>
+	"../../Objects/Sphere.h"
+	"../../Objects/Plane.h"
+	"../../Objects/Cube.h"
+
+1276603816 source:/home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/main.cpp
+	"LikeAnEngine.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1276604545 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/LikeAnEngine.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<sstream>
+	<pthread.h>
+	"Utils/Camera.h"
+	"Conf/Loader.h"
+	"Utils/KeyboardManager.h"
+	"Objects/Sphere.h"
+	"Objects/Plane.h"
+	"Objects/Cube.h"
+	"Objects/Light.h"
+	"Objects/Model3DS.h"
+	"Utils/Math/CollitionsMath.h"
+
+1254494814 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Utils/Camera.h
+	<stdlib.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1265522046 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Conf/Loader.h
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<vector>
+	"../Utils/Camera.h"
+	"../Objects/Sphere.h"
+	"../Objects/Plane.h"
+	"../Objects/Cube.h"
+	"../Objects/Light.h"
+	"../Objects/Model3DS.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254494730 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Objects/Sphere.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	<string>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268354 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Objects/Object3d.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+
+1254268256 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Utils/Imageloader.h
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1256350818 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Objects/Plane.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	<iostream>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268256 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Utils/Math/MyStructs.h
+	<cmath>
+
+1254268354 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Objects/Cube.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"Plane.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1256361128 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Objects/Light.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260303060 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Objects/Model3DS.h
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"../Conf/l3ds.h"
+	"Object3d.h"
+	<iostream>
+	<string>
+	<lib3ds/file.h>
+	<lib3ds/mesh.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260302890 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Conf/l3ds.h
+	<vector>
+	<string>
+
+1254268256 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Utils/KeyboardManager.h
+
+1254268256 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/V 2.2/Demo in codeblocks/LIB/Include/Utils/Math/CollitionsMath.h
+	<cmath>
+	"../../Objects/Sphere.h"
+	"../../Objects/Plane.h"
+	"../../Objects/Cube.h"
+
+1276630793 source:/home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/main.cpp
+	"LikeAnEngine.h"
+
+1276621873 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/LikeAnEngine.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<sstream>
+	<pthread.h>
+	"Utils/Camera.h"
+	"Conf/Loader.h"
+	"Utils/KeyboardManager.h"
+	"Objects/Sphere.h"
+	"Objects/Plane.h"
+	"Objects/Cube.h"
+	"Objects/Light.h"
+	"Objects/Model3DS.h"
+	"Utils/Math/CollitionsMath.h"
+
+1254494814 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Utils/Camera.h
+	<stdlib.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1265522046 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Conf/Loader.h
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<vector>
+	"../Utils/Camera.h"
+	"../Objects/Sphere.h"
+	"../Objects/Plane.h"
+	"../Objects/Cube.h"
+	"../Objects/Light.h"
+	"../Objects/Model3DS.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254494730 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Objects/Sphere.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	<string>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268354 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Objects/Object3d.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<time.h>
+
+1254268256 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Utils/Imageloader.h
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1256350818 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Objects/Plane.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	<iostream>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1254268256 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Utils/Math/MyStructs.h
+	<cmath>
+
+1254268354 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Objects/Cube.h
+	"Object3d.h"
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"Plane.h"
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1256361128 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Objects/Light.h
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260303060 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Objects/Model3DS.h
+	"../Utils/Imageloader.h"
+	"../Utils/Math/MyStructs.h"
+	"../Conf/l3ds.h"
+	"Object3d.h"
+	<iostream>
+	<string>
+	<lib3ds/file.h>
+	<lib3ds/mesh.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1260302890 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Conf/l3ds.h
+	<vector>
+	<string>
+
+1254268256 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Utils/KeyboardManager.h
+
+1254268256 /home/danielgomez22/Desktop/Link to Desarrollos propios/1 like-an-engine/v 2.2.1/Demo in codeblocks/LIB/Include/Utils/Math/CollitionsMath.h
+	<cmath>
+	"../../Objects/Sphere.h"
+	"../../Objects/Plane.h"
+	"../../Objects/Cube.h"
+

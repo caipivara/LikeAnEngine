@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="LikeAnEngine/LikeAnEngine.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="9007" topLine="347" />
+	</File>
+	<File name="LikeAnEngine/LikeAnEngine.h" open="0" top="0" tabpos="1">
+		<Cursor position="1893" topLine="75" />
+	</File>
+	<File name="LikeAnEngine/Objects/Cube.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6640" topLine="157" />
+	</File>
+	<File name="LikeAnEngine/Objects/Model3DS.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="18" />
+	</File>
+	<File name="LikeAnEngine/Objects/Plane.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3945" topLine="99" />
+	</File>
+	<File name="LikeAnEngine/Objects/Sphere.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3728" topLine="104" />
+	</File>
+	<File name="LikeAnEngine/Utils/Camera.h" open="0" top="0" tabpos="2">
+		<Cursor position="1083" topLine="24" />
+	</File>
+	<File name="LikeAnEngine/Utils/Math/CollitionsMath.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="6337" topLine="235" />
+	</File>
+	<File name="LikeAnEngine/Utils/Math/MyStructs.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1935" topLine="72" />
+	</File>
+</CodeBlocks_layout_file>

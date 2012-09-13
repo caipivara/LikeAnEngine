@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LikeAnEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/libLikeAnEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lglut -lGLU -lGL" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/libLikeAnEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="LikeAnEngine/Conf/Loader.cpp" />
+		<Unit filename="LikeAnEngine/Conf/Loader.h" />
+		<Unit filename="LikeAnEngine/Conf/l3ds.cpp" />
+		<Unit filename="LikeAnEngine/Conf/l3ds.h" />
+		<Unit filename="LikeAnEngine/LikeAnEngine.cpp" />
+		<Unit filename="LikeAnEngine/LikeAnEngine.h" />
+		<Unit filename="LikeAnEngine/Objects/Cube.cpp" />
+		<Unit filename="LikeAnEngine/Objects/Cube.h" />
+		<Unit filename="LikeAnEngine/Objects/Light.cpp" />
+		<Unit filename="LikeAnEngine/Objects/Light.h" />
+		<Unit filename="LikeAnEngine/Objects/Model3DS.cpp" />
+		<Unit filename="LikeAnEngine/Objects/Model3DS.h" />
+		<Unit filename="LikeAnEngine/Objects/Object3d.h" />
+		<Unit filename="LikeAnEngine/Objects/Plane.cpp" />
+		<Unit filename="LikeAnEngine/Objects/Plane.h" />
+		<Unit filename="LikeAnEngine/Objects/Sphere.cpp" />
+		<Unit filename="LikeAnEngine/Objects/Sphere.h" />
+		<Unit filename="LikeAnEngine/Utils/Camera.cpp" />
+		<Unit filename="LikeAnEngine/Utils/Camera.h" />
+		<Unit filename="LikeAnEngine/Utils/Imageloader.cpp" />
+		<Unit filename="LikeAnEngine/Utils/Imageloader.h" />
+		<Unit filename="LikeAnEngine/Utils/KeyboardManager.cpp" />
+		<Unit filename="LikeAnEngine/Utils/KeyboardManager.h" />
+		<Unit filename="LikeAnEngine/Utils/Math/CollitionsMath.cpp" />
+		<Unit filename="LikeAnEngine/Utils/Math/CollitionsMath.h" />
+		<Unit filename="LikeAnEngine/Utils/Math/MyStructs.cpp" />
+		<Unit filename="LikeAnEngine/Utils/Math/MyStructs.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

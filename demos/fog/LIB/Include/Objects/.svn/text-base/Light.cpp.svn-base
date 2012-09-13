@@ -1,0 +1,117 @@
+/*
+  Written by: 
+  Daniel Gomez Rico
+  danielgomezrico@gmail.com   
+  Student of system engineering, 6 semester
+  at the EAFIT university from Colombia
+  14 - August - 2009
+*/
+
+#include "Light.h"
+#include <iostream>
+//=============================Constructors=====================
+Light::Light(){
+  initValues();
+}
+
+Light::Light(GLfloat p[4]){//GLfloat x, GLfloat y, GLfloat z){
+  initValues();//Init predef values
+  //We Give the new values
+  _arrayPosition[0] = p[0], _arrayPosition[1] = p[1], _arrayPosition[2] = p[2];
+  _arrayPosition[3] = p[3];
+}
+
+Light::Light(GLfloat p[4], GLfloat rad){
+  initValues();//Init predef values
+  //We Give the new values
+  _arrayPosition[0] = p[0], _arrayPosition[1] = p[1], _arrayPosition[2] = p[2];
+  _arrayPosition[3] = p[3];
+  _radius = rad;
+}
+
+Light::Light(GLfloat ambiental[4], GLfloat diffuse[4], GLfloat specular[4], GLfloat p[4]){
+  initValues();//Init predef values
+  //We Give the new values
+  _arrayPosition[0] = p[0], _arrayPosition[1] = p[1], _arrayPosition[2] = p[2];
+  _arrayPosition[3] = p[3];
+
+  _arrayAmbient[0] = ambiental[0], _arrayAmbient[1] = ambiental[1], _arrayAmbient[2] = ambiental[2], _arrayAmbient[3] = ambiental[3];   
+  _arrayDiffuse[0] = diffuse[0], _arrayDiffuse[1] = diffuse[1], _arrayDiffuse[2] = diffuse[2], _arrayDiffuse[3] = diffuse[3];
+  _arraySpecular[0] = specular[0], _arraySpecular[1] = specular[1], _arraySpecular[2] = specular[2], _arraySpecular[3] = specular[3];
+}
+
+void Light::initValues(){
+  _deltaPosX = 1.0, _deltaPosY = 1.0, _deltaPosZ = 1.0;
+  _radius = 2.0;
+  
+  
+  _arrayPosition[0] = 10.0, _arrayPosition[1] = 10.0, _arrayPosition[2] = 25.0, _arrayPosition[3] = 1.0;  
+  _arrayAmbient[0] = 0.0,_arrayAmbient[1] = 0.0, _arrayAmbient[2] = 0.5, _arrayAmbient[3] = 1.0;
+  _arrayDiffuse[0] = 0.0, _arrayDiffuse[1] = 0.5, _arrayDiffuse[2] = 1.0, _arrayDiffuse[3] = 1.0;
+  _arraySpecular[0] = 0.3, _arraySpecular[1] = 0.6, _arraySpecular[2] = 1.0, _arraySpecular[3] = 1.0; 
+  
+  _r = 1.0, _g = 0.0, _b = 1.0;
+
+  _drawLight = true;
+}
+
+void Light::enableGLLight(int nLight){
+
+  switch (nLight){
+  case 0:_glLight = GL_LIGHT0;break;
+  case 1:_glLight = GL_LIGHT1;break;
+  case 2:_glLight = GL_LIGHT2;break;
+  case 3:_glLight = GL_LIGHT3;break;
+  case 4:_glLight = GL_LIGHT4;break;
+  case 5:_glLight = GL_LIGHT5;break;
+  case 6:_glLight = GL_LIGHT6;break;
+  case 7:_glLight = GL_LIGHT7;break;
+  }
+
+  glLightfv(_glLight, GL_AMBIENT, _arrayAmbient);
+  glLightfv(_glLight, GL_DIFFUSE, _arrayDiffuse);
+  glLightfv(_glLight, GL_SPECULAR, _arraySpecular);
+  glLightfv(_glLight, GL_POSITION, _arrayPosition);
+  
+  glEnable(GL_LIGHTING);
+  glEnable(_glLight);
+}
+
+//============================================================
+
+void Light::draw(){
+  glPushMatrix();
+    glLightfv(_glLight, GL_POSITION, _arrayPosition);
+    if(_drawLight){
+      glColor3f(_r, _g, _b); 
+      glTranslatef(_arrayPosition[0], _arrayPosition[1], _arrayPosition[2]);
+      glutWireSphere(_radius,20,20);
+    }
+  glPopMatrix();
+}
+
+void Light::moveInX(bool positive){
+  if(positive)_arrayPosition[0] += _deltaPosX;
+  else _arrayPosition[0] -= _deltaPosX;
+}
+
+void Light::moveInY(bool positive){
+  if(positive)_arrayPosition[1] += _deltaPosY;
+  else _arrayPosition[1] -= _deltaPosY;
+}
+
+void Light::moveInZ(bool positive){
+  if(positive)_arrayPosition[2] += _deltaPosZ;
+  else _arrayPosition[2] -= _deltaPosZ;
+}
+
+void Light::setDrawLight(bool draw){
+  _drawLight = draw;
+  
+}
+
+GLfloat Light::getRadius(){return _radius;}
+GLfloat Light::getPosX(){return _arrayPosition[0];}
+GLfloat Light::getPosY(){return _arrayPosition[1];}
+GLfloat Light::getPosZ(){return _arrayPosition[2];}
+

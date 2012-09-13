@@ -1,0 +1,113 @@
+/*
+  Written by: 
+  Daniel Gomez Rico
+  danielgomezrico@gmail.com   
+  Student of system engineering, 6 semester
+  at the EAFIT university from Colombia
+  28 - August - 2009
+*/
+
+
+
+
+#ifndef _PLANE_H_
+#define _PLANE_H_
+
+#include "Object3d.h"
+#include "../Utils/Imageloader.h"
+#include "../Utils/Math/MyStructs.h"
+#include <iostream>
+
+#ifdef __APPLE__
+#include <OpenGL/OpenGL.h>
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
+
+/*
+  This class represents a plane
+*/
+class Plane{
+ public:
+  Plane();
+  Plane(GLdouble arrayV[12]);//Only Vertex
+  Plane(GLdouble arrayV[12], GLfloat r, GLfloat g, GLfloat b, GLfloat alpha);//With r,g,b,alpha colors
+  Plane(GLdouble arrayV[12], GLfloat r, GLfloat g, GLfloat b, GLfloat alpha, GLdouble amb[4],GLdouble dif[4],GLdouble spec[4]);//With materials
+
+  void initValues();//Initialize each attribute with a predefined value
+  void calcNormal();//Calculate the normal and asign it to _normal
+  void calcD();//Calculate the D of the plane using the vertex and the normal and asign it to _D
+  void initArrays(GLdouble arrayV[12]);
+
+
+  void draw();//Draw the plane with all the atributes
+  
+  void moveInX(bool positive);//Move the plane + delta if positive, else move -delta
+  void moveInY(bool positive);
+  void moveInZ(bool positive);
+
+
+
+  void setTexture(GLuint texture);
+  
+  void setPos(GLdouble x, GLdouble y, GLdouble z);
+  void setPosX(GLdouble pos);
+  void setPosY(GLdouble pos);
+  void setPosZ(GLdouble pos);
+  void setColor(GLfloat r, GLfloat g, GLfloat b, GLfloat alpha);
+  void setBlendingFactors(GLenum source,GLenum destination );
+
+
+  GLfloat* getColor();
+
+  GLdouble getPosX();
+  GLdouble getPosY();
+  GLdouble getPosZ();
+  
+  //Gets the real verte, with no translation position of the vertex
+  MyPoint3d* getRealVertex1();
+  MyPoint3d* getRealVertex2();
+  MyPoint3d* getRealVertex3();
+  MyPoint3d* getRealVertex4();
+  
+
+  /*
+    Gets a MyPoint3d that represents the vertex but 
+    translated in _posX, _posY, _posZ
+  */
+  MyPoint3d* getVertex1();
+  MyPoint3d* getVertex2();
+  MyPoint3d* getVertex3();
+  MyPoint3d* getVertex4();
+  
+
+  GLfloat getD();
+  MyVector3d* getNormal();
+
+  
+ private:
+  GLdouble _posX, _posY, _posZ, _deltaPosX, _deltaPosY, _deltaPosZ;//Position and how much the ball moves
+  GLfloat _arrayColor[4];//Color of the plane, RGBA
+  GLfloat _D;//D of the plane equation
+  
+  // MyPoint3d *_vertex1, *_vertex2, *_vertex3, *_vertex4;//Each vertex of the plane in order of drawing (clockwise)
+  MyVector3d _normal;
+  
+  GLfloat _matAmbient[4]; //Material of the ball of the ambiental light
+  GLfloat _matDiffuse[4];//Material of the ball of the diffuse light
+  GLfloat _matSpecular[4];//Material of the ball of the specular light
+  
+  GLuint _texture;//ID for the texture of the planed
+
+  //Blending and transparency=
+  GLenum _sourceFactor, _destFactor;
+  //==========================
+
+  GLdouble _arrayV[12];//4 vertex (x,y,z)
+  GLfloat _arrayC[16];//Color of each vertex (r,g,b,alpha)
+  GLfloat _arrayN[12];//Vector Normal for each vertex (x,y,z)
+  GLfloat _arrayT[8];//Tex Coords for object (x,y)
+};
+
+#endif 

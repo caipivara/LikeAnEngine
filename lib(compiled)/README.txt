@@ -5,44 +5,23 @@
 
 ===========================================================================
 
+
 Like an engine is an open source graphics engine with gpl licence, 
 written in c++ and opengl (with glut),
-that encapsulates opengl for the user.
+that encapsulates opengl for the user,
 
-The project was developed using CodeBlocks C++ IDE and GLUT libraries.
+Now anyone with no knowledge about opengl CAN MAKE 3D COOL THINGS!!!!!
 
-=============
-Structure
-=============
-
-+demos
-Source of some projects that use the library
-
-+src
-Source of the library
-
-+lib
-Compiled version of library
-
-
-
-=============
-Imagine...
-=============
-
-I want a cube, in x,y position with this color…
+ex:
+Say, i want a cube, in x,y position with this color…
 cube move in this direction…
 Load this .3ds model with this propertys…
 Draw a sphere in this position… with this texture…
 
-BANG! you've got it in a simple way!
 
-===============
-BY
-===============
-
-Daniel Gòmez Rico, danielgomezrico@gmail.com
-12/02/2010
+Developer: 
+	Daniel Gòmez Rico, danielgomezrico@gmail.com
+	12/02/2010
 
 
 The thing now is imagination,
@@ -55,9 +34,9 @@ only imagination
 
 
 
-=======================================================
+---------------------------------------------------------
 		HOW - TO COMPILE - RUN
-=======================================================
+---------------------------------------------------------
 
 You must create:
 
@@ -79,9 +58,9 @@ You must create:
 - To compile, says to the compiler to use the libLikeAnEngine and the includes,
 then : Enjoy!!!.
 
-=======================================================
-		Compile With Code::Blocks IDE
-=======================================================
+
+Compilation in code::blocks ide
+----
 
 Right click over the project, build options:
 
@@ -92,18 +71,40 @@ Right click over the project, build options:
 then... RUN!!!
 
 
-=======================================================
+
+---------------------------------------------------------
+			LICENCE
+---------------------------------------------------------
+
+This software is protected by GPL v3 licence, search COPYING.txt to se more.
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------
 			REQUIREMENTS
-=======================================================
+---------------------------------------------------------
 
 Glut - http://www.opengl.org/resources/libraries/glut/glut_downloads.php (in linux: $aptitude install freeglut3-dev)
 
 
 
 
-=======================================================
+
+
+
+
+
+---------------------------------------------------------
 			CONF FILE
-=======================================================
+---------------------------------------------------------
 
 In the WorldConf folder you can find the file "world.txt", that contents all the 
 configurations for the scene

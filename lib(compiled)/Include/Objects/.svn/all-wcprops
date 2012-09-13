@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects
+END
+Cube.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects/Cube.cpp
+END
+Plane.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects/Plane.cpp
+END
+Object3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects/Object3d.h
+END
+Cube.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects/Cube.h
+END
+Plane.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects/Plane.h
+END
+Sphere.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects/Sphere.cpp
+END
+Light.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects/Light.cpp
+END
+Sphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects/Sphere.h
+END
+Light.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opengl/like-an-engine/!svn/ver/5/Like%20an%20engine%201.91/Objects/Light.h
+END
